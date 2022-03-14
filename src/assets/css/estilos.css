@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "titulo";
+    src: url("../../assets/fonts/titulo.otf");
+    font-style: normal;
+    font-weight: 300;
+  }
+  .titulo{
+    font-family: titulo !important;
+  }
+  @font-face {
+    font-family: "text";
+    src: url("../../assets/fonts/texto-1.otf");
+    font-style: normal;
+  }
+  
+  .text{
+    font-family: text !important;
+
+  }
+.color-1{
+    color: #324775 !important;
+}
+.bg-1{
+    background-color: #BAA841;
+}
+.text-justify{
+    text-align: justify !important;
+}
+.sombra{
+    background-color:rgba(0, 0, 0, 0.582);
+}

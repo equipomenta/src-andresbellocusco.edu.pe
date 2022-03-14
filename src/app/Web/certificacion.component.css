@@ -1,0 +1,43 @@
+.filto-1{
+    filter:brightness(0.4) !important; 
+    z-index: 0;
+  }
+  .carrousel-top{
+    top: 30%;
+    z-index: 1;
+  }
+  .bg-1{
+    background-color: rgba(255, 255, 255, 0.438) !important;
+    background-size: cover;
+  }
+  @media only screen and (max-width: 600px) {
+    .carrousel-top {
+      top: 20% !important;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .carrousel-top {
+      top: 30% !important;
+    }
+  }
+  @media only screen and (max-width: 1024) {
+    .carrousel-top {
+      top: 30% !important;
+    }
+  }
+  #datos {
+    background: url(../../assets/image/fondo-1.jpg) no-repeat center fixed;
+    display: table;
+    height: auto;
+    padding: 5%;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#datos .panel {
+    opacity: 0.1;
+}
